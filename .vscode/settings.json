@@ -1,2 +1,7 @@
 {
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.g4": "antlr",
+        "stdbool.h": "c"
+    }
 }
