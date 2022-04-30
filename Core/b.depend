@@ -31,13 +31,14 @@
 	<stdio.h>
 	"debug.h"
 
-1651317515 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.c
+1651340896 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.c
 	<stdlib.h>
 	"chunk.h"
 	"memory.h"
 
-1651317493 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.h
+1651340829 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.h
 	"common.h"
+	"value.h"
 
 1651134740 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\common.h
 	<stdbool.h>
@@ -47,9 +48,10 @@
 1651338241 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\memory.h
 	"common.h"
 
-1651338361 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.c
+1651341012 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.c
 	<stdio.h>
 	"debug.h"
+	"value.h"
 
 1651338342 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.h
 	"chunk.h"
@@ -62,4 +64,12 @@
 1651317470 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\memory.c
 	<stdlib.h>
 	"memory.h"
+
+1651340532 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.h
+	"common.h"
+
+1651340551 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.c
+	<stdio.h>
+	"memory.h"
+	"value.h"
 
