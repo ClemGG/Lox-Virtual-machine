@@ -47,6 +47,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="memory.h" />
+		<Unit filename="value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="value.h" />
+		<Unit filename="vm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vm.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
