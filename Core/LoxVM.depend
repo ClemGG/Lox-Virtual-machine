@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1651411932 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.c
+1651412574 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.c
 	<stdio.h>
 	"debug.h"
 	"value.h"
