@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1651418941 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.c
+1651497724 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.c
 	<stdio.h>
 	"debug.h"
 	"value.h"
@@ -7,7 +7,7 @@
 1651329384 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\debug.h
 	"chunk.h"
 
-1651419716 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.h
+1651498279 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.h
 	"common.h"
 	"value.h"
 
@@ -25,31 +25,39 @@
 	"debug.h"
 	"vm.h"
 
-1651317470 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\memory.c
+1651424182 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\memory.c
 	<stdlib.h>
 	"memory.h"
+	"vm.h"
 
-1651408078 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\memory.h
+1651424168 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\memory.h
 	"common.h"
+	"object.h"
 
-1651419127 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.c
+1651494323 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.c
 	<stdio.h>
+	<string.h>
+	"object.h"
 	"memory.h"
 	"value.h"
 
-1651419889 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.h
+1651420872 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.h
 	"common.h"
 
-1651418921 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\vm.c
+1651497711 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\vm.c
 	<stdio.h>
 	<stdarg.h>
+	<string.h>
 	"common.h"
 	"compiler.h"
 	"debug.h"
+	"object.h"
+	"memory.h"
 	"vm.h"
 
-1651413402 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\vm.h
+1651497506 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\vm.h
 	"chunk.h"
+	"table.h"
 	"value.h"
 
 1651409814 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\chunk.c
@@ -65,14 +73,40 @@
 
 1651413928 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\scanner.h
 
-1651415401 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\compiler.h
+1651421127 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\compiler.h
 	"vm.h"
+	"object.h"
 
-1651417212 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\compiler.c
+1651497381 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\compiler.c
 	<stdio.h>
 	<stdlib.h>
 	"common.h"
 	"compiler.h"
 	"scanner.h"
 	"debug.h"
+
+1651496814 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\object.h
+	"common.h"
+	"value.h"
+
+1651494232 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\table.h
+	"common.h"
+	"value.h"
+
+1651494278 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\table.c
+	<stdlib.h>
+	<string.h>
+	"memory.h"
+	"object.h"
+	"table.h"
+	"value.h"
+
+1651494193 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\object.c
+	<stdio.h>
+	<string.h>
+	"memory.h"
+	"object.h"
+	"table.h"
+	"value.h"
+	"vm.h"
 
