@@ -124,16 +124,6 @@ int disassembleInstruction(Chunk* chunk, int offset) {
         return invokeInstruction("OP_INVOKE", chunk, offset);
      case OP_SUPER_INVOKE:
         return invokeInstruction("OP_SUPER_INVOKE", chunk, offset);
-     case OP_SUPER_INVOKE: {
-         ObjString* method = READ_STRING();
-         int argCount = READ_BYTE();
-         ObjClass* superclass = AS_CLASS(pop());
-         if (!invokeFromClass(superclass, method, argCount)) {
-         return INTERPRET_RUNTIME_ERROR;
-         }
-         frame = &vm.frames[vm.frameCount - 1];
-         break;
-         }
 
      case OP_CLOSURE: {
          offset++;
