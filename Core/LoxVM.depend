@@ -45,10 +45,11 @@
 1651420872 c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\value.h
 	"common.h"
 
-1651504915 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\vm.c
+1651507588 source:c:\users\clément\documents\github\esolangs\lox-virtual-machine\core\vm.c
 	<stdio.h>
 	<stdarg.h>
 	<string.h>
+	<time.h>
 	"common.h"
 	"compiler.h"
 	"debug.h"
