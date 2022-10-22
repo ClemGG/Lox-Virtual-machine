@@ -1,0 +1,7 @@
+Java (Se placer dans le dossier parent de Core):
+Compiler: javac Core/Lox.java
+Exécuter: java Core.Lox Runtime/loxTest.txt
+
+C (Se placer dans le dossier Core):
+Compiler: gcc -o lox.exe main.c [Plus tous les autres fichiers c]
+Exécuter: lox ../Runtime/loxTest.txt
